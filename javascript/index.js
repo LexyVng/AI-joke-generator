@@ -11,6 +11,9 @@ function displayJoke(response) {
       delay: 40,
     });
   }, 4000);
+
+  let containerElement = document.querySelector("#container");
+  containerElement.classList.add("container");
 }
 
 function getJoke() {
