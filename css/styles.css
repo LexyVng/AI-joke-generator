@@ -17,3 +17,21 @@ h1 {
   border-radius: 8px;
   padding: 20px;
 }
+
+button {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  margin: 80px auto 30px auto;
+  text-align: center;
+  background-color: #f7b398;
+  padding: 15px 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: #fee5cb;
+}
