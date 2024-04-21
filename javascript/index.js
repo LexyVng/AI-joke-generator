@@ -1,3 +1,9 @@
+function displayJoke(response) {
+  let replySection = document.querySelector("#joke");
+
+  replySection.innerHTML = "Generating joke... prepare to laugh!";
+}
+
 function getJoke() {
   let apiKey = "2b4a0533t1055afa3fbo41efac5059ad";
   let context =
