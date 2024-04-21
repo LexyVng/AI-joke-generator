@@ -3,6 +3,7 @@ Welcome to the AI Joke Generator Web Application! This application utilizes arti
 
 ## Features
 - **AI Joke Generation**: Click a button to trigger the AI to generate a joke.
+- **Loading Message**: A loading message is displayed while the user waits for the joke to be generated.
 - **Typewriter Effect**: Jokes are displayed using a typewriter effect for a fun and engaging user experience.
 
 ## Technologies Used
