@@ -2,6 +2,15 @@ function displayJoke(response) {
   let replySection = document.querySelector("#joke");
 
   replySection.innerHTML = "Generating joke... prepare to laugh!";
+
+  setTimeout(() => {
+    new Typewriter("#joke", {
+      strings: response.data.answer,
+      autoStart: true,
+      cursor: null,
+      delay: 40,
+    });
+  }, 4000);
 }
 
 function getJoke() {
