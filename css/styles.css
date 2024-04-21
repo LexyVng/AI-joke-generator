@@ -35,3 +35,20 @@ button {
 button:hover {
   background: #fee5cb;
 }
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+}
+
+.footer-emoji {
+  font-size: 18px;
+}
+
+strong {
+  color: #e23225;
+}
